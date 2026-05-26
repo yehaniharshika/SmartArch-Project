@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import LandingPage from "./pages/LandingPage";
-import LoginPage from "./pages/LoginPage";
-import RegisterPage from "./pages/RegisterPage";
-import DashboardPage from "./pages/DashboardPage";
-import UploadPage from "./pages/UploadPage";
-import ResultPage from "./pages/ResultPage";
-import ChatPage from "./pages/ChatPage";
+import LandingPage  from "./pages/LandingPage.jsx";
+import LoginPage    from "./pages/LoginPage.jsx";
+import RegisterPage from "./pages/RegisterPage.jsx";
+import DashboardPage from "./pages/DashboardPage.jsx";
+import UploadPage   from "./pages/UploadPage.jsx";
+import ResultPage   from "./pages/ResultPage.jsx";
+import ChatPage     from "./pages/ChatPage.jsx";
 
 export default function App() {
   return (
